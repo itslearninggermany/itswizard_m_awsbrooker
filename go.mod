@@ -1,4 +1,4 @@
-module itswizard_m_awsbrooker
+module github.com/itslearninggermany/itswizard_m_awsbrooker
 
 go 1.19
 
