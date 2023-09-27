@@ -15,6 +15,10 @@ import (
 	"time"
 )
 
+/*
+Communication to aws
+*/
+
 type timeSlice []time.Time
 
 func (s timeSlice) Less(i, j int) bool { return s[i].Before(s[j]) }
